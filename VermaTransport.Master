@@ -1,0 +1,525 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="VermaTransport.master.cs"
+    Inherits="VermaTransportCompany.VermaTransport" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Online Truck Booking India, Transporters, Online Load, Logistics services
+    </title>
+    <meta name="description" content="Get online truck booking services , express cargo booking services, transportation and logistics services online Pan India. Call 7202045678 Book Now" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <link rel="canonical" href="https://truckguru.co.in/about" />
+    <link rel="amphtml" href="https://truckguru.co.in/amp/about">
+
+    <link rel="canonical" href="https://truckguru.co.in" />
+    <link rel="amphtml" href="https://truckguru.co.in">
+
+    <html lang="en">
+    <link rel="icon" href="https://truckguru.co.in/icon/favicon.png" sizes="32x32" />
+    <link rel="shortcut icon" href="https://truckguru.co.in/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://truckguru.co.in/amp/apple-touch-icon.png">
+
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1,end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+
+    <script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Organization", "name": "TruckGuru", "url": "https://truckguru.co.in/", "logo": "https://truckguru.co.in/images/logo-new.png", "contactPoint": { "@type": "ContactPoint", "telephone": "+917202045678", "contactType": "roadside assistance", "areaServed": "IN", "availableLanguage": ["English","Hindi"] }, "sameAs": [ "https://www.facebook.com/TruckGuruindia/", "https://www.linkedin.com/company/truckguru.co.in", "https://twitter.com/TruckGuruindia" ] } </script>
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Truck Booking India, Transporters, Online Truck load, Logistics services" />
+    <meta property="og:description" content="TruckGuru provides online truck booking services, cargo booking services, transportation and logistics services in india. Book your online transportation services today" />
+    <meta property="og:url" content="https://truckguru.co.in" />
+    <meta property="og:image" content="https://truckguru.co.in/images/logo1-new.png" />
+    <meta property="og:site_name" content=" TruckGuru LLP" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="TruckGuru provides online truck booking services, cargo booking services, transportation and logistics services in india. Book your online transportation services today" />
+    <meta name="twitter:title" content="Truck Booking India, Transporters, Online Load, Logistics services" />
+    <meta name="copyright" content="TruckGuru LLP" />
+    <meta name="twitter:image" content="https://truckguru.co.in/images/logo1-new.png" />
+
+    <meta name="author" content="Admin" />
+    <meta name="distribution" content="global" />
+    <meta name="Content-Language" content="en" />
+    <meta name="publisher" content="https://truckguru.co.in/">
+    <meta name="geo.region" content="IN" />
+    <meta name="geo.placename" content="Vadodara" />
+    <meta name="geo.position" content="22.2991053,73.2475404,18" />
+    <meta name="ICBM" content="22.2991053,73.2475404,18" />
+    <meta name="City" content="Vadodara" />
+    <meta name="State" content="Gujarat" />
+    <meta name="robots" content="index,follow" />
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    <meta property="og:title" content="Packers & Movers   | Truck Rental Services  "/>
+    <meta property="og:type" content="activity"/>
+    <meta property="og:url" content="https://truckguru.co.in/about"/>
+    <meta property="og:image" content="https://truckguru.co.in/images/logo-new.png"/>
+    <meta property="og:site_name" content="Packers & Movers   | Truck Rental Services  "/>
+    <meta property="og:description" content="Are you looking for transportation and logistics services in India? TruckGuru LLP Shift your home, office or heavy goods with cost-effective rates and provides door-to-door truck rental services. Call us today! 7202045678" />
+    <meta name="twitter:title" content="Packers & Movers   | Truck Rental Services  "/>
+    <meta name="twitter:description" content="Are you looking for transportation and logistics services in India? TruckGuru LLP Shift your home, office or heavy goods with cost-effective rates and provides door-to-door truck rental services. Call us today! 7202045678" />
+    <meta name="twitter:image" content="https://truckguru.co.in/images/logo-new.png"/>
+
+
+    <%--<link rel="icon" type="image/x-icon" rel="icon" type="image/x-icon" href="favicon.ico" />--%>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=5.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <meta name="theme-color" content="#F38634">
+
+	<meta name="google-site-verification" content="9Eslix-qw4E5qk_jW4OqBotpWkbDBuS6yK1xt0VnF1I" />
+	<meta name="msvalidate.01" content="B46CED242750DC354596AD2B27FB0B2B" />
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	 <!-- Custom Theme files -->
+<%--	<link href="css/style.css" rel='stylesheet' type='text/css' />--%>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	    	
+<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Organization", "name": "TruckGuru", "url": "https://truckguru.co.in/", "logo": "https://truckguru.co.in/images/logo-new.png", "contactPoint": { "@type": "ContactPoint", "telephone": "+917202045678", "contactType": "roadside assistance", "areaServed": "IN", "availableLanguage": ["English","Hindi"] }, "sameAs": [ "https://www.facebook.com/TruckGuruindia/", "https://www.linkedin.com/company/truckguru.co.in", "https://www.linkedin.com/company/truckguru.co.in" ] } </script>
+	
+   <link href="css/mycss.css" rel='stylesheet' type='text/css' />
+
+
+    <%-- <link href="css/mycss.css" rel='stylesheet' type='text/css' />--%>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%--<form id="form1" runat="server">--%>
+        <div>
+            <amp-sidebar id="mibile_menu" layout="nodisplay" side="right" class="shadow"/>
+              <button style="" on="tap:mibile_menu.close"><i class="close" id="close1">X</i></button>
+              <nav toolbar="(min-width: 1025px)" toolbar-target="navTarg" class="d-flex w100">
+                <ul id="nav-ul" class="Mt50 d-flex">
+                  <li>
+                    <a href="index.aspx">Home</a>
+                  </li>
+                  <li >
+                    <a href="about.aspx">ABOUT US</a>
+                  </li>
+                  <li >
+                    <a href="faq">FAQ</a>
+                  </li>
+                  <li >
+	               <a href="truck-type">TRUCK TYPE</a>			                   									
+                  </li>
+                   <li >      
+		             <a href="https://play.google.com/store/apps/details?id=in.co.truckguru.truckguru&hl=en_IN">Vendor App</a>		
+                  </li>
+                   <li >
+                    <a href="../blog/amp">BLOG</a>
+                  </li>
+                   <li >
+                    <a href="../contact">CONTACT</a>
+                  </li>
+                   <li >
+                </ul>
+              </nav>
+            </amp-sidebar>
+            <header class="home" >
+              <div class="row" >
+               <div class="col12 col-auto pad0"> 
+                <div class="row d-flex relative">
+                  <div class="col3 pad10-15 button-flex t-w50" on="tap: AMP.setState({dropdown: !dropdown })" role="button" tabindex="false">
+                    <div>
+                    <a href="index.php" class="inline-block">
+                    <amp-img  src="amp/images/logo.png" width="150" height="47.39" layout="fixed" alt="logo"></amp-img>
+                    </a>
+                   </div>
+
+                  </div>
+                  <div class="col9 d-flex pad10-15" id="navTarg" style=""></div>
+                  <div class="responisve_menu_button">
+                    <button on="tap:mibile_menu.toggle" class="nav_button hamburger navigation_wrapper">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+               </div> 
+              </div>
+            </header>  
+            <section>
+                          
+
+
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            </section>
+            <footer class="footer copy overflow pad30-0">
+	            <div class="container">
+	              <div class="row">
+	  	            <div class="col8 t-w100 none">
+	  		            <h3 class="footer-h3">ABOUT OUR COMPANY</h3>
+	  		            <p>TruckGuru, a leading transport and logistics service provider is introducing a truly innovative, modern and high-tech online platform to book the truck in a few simple steps.</p>
+	  		            <p>With the apt use of advanced technology and rich industry experience, we are delivering customized and economical online transportation and cargo solutions to match your expectations and exceed industry benchmarks. </p>
+	  		            <h3 class="footer-h3">CONTACT INFORMATION</h3>
+	  		            <p class="personal-info">
+                            <a href="tel: 72020 45678" class="tel"> Phone : 72020 45678</a>
+				            <a href="https://wa.me/917202045678" class="whatsapp"> WhatsApp : 7202045678</a>
+				            <a href="mailto:info@truckguru.co.in" class="mail">Email : info@truckguru.co.in</a>
+			                 Office Timing: 09:00 AM to 07:00 PM
+		                </p>
+	  	            </div>
+	  	            <div class="col8 t-w100 OnlyMobile">
+	  		            <amp-accordion disable-session-states expand-single-section>
+                          <section >
+                            <h2 class="acco footer-h3">ABOUT OUR COMPANY<span class="plus">+</span></h2>
+                            <div class="box-shadow panel">
+                              <p>TruckGuru, a leading transport and logistics service provider is introducing a truly innovative, modern and high-tech online platform to book the truck in a few simple steps.</p>
+	  		            <p>With the apt use of advanced technology and rich industry experience, we are delivering customized and economical online transportation and cargo solutions to match your expectations and exceed industry benchmarks. </p>
+	  		            <h3 class="footer-h3">CONTACT INFORMATION</h3>
+	  		            <p class="personal-info">
+                             <a href="tel: 72020 45678" class="tel"> Phone : 72020 45678</a>
+				            <a href="https://wa.me/917202045678" class="whatsapp"> WhatsApp : 7202045678</a>
+				            <a href="mailto:info@truckguru.co.in" class="mail">Email : info@truckguru.co.in</a>
+			                 Office Timing: 09:00 AM to 07:00 PM
+		                </p>
+                            </div>
+                          </section>
+                      </amp-accordion>
+	  	            </div>
+	  	            <div class="col4 t-w100 none">
+	  	              <div class="row">
+	  	               <div class="col6 pad0">	
+	  	   	 
+
+	  		            <h3 class="footer-h3">QUICK LINKS</h3>
+	  		            <ul>
+					            <li><a href="index">Home</a></li>
+					            <li><a href="about" target="_blank">About Us</a></li>
+					            <li><a href="faq" target="_blank">FAQ</a></li>
+					            <li><a href="../blog/amp" target="_blank">Blog</a></li>
+					            <li><a href="../term-condition" target="_blank">Terms &amp; Conditions</a></li>
+					            <li><a href="../privacy-policy" target="_blank">Privacy Policy</a></li>
+					            <li><a href="../payment-term" target="_blank">Payment Terms</a></li>		
+					            <li><a href="../partner-with-us" target="_blank">Partner With Us</a></li>		
+				            </ul>
+		                </div>
+		                <div class="col6 pad0">
+		    	            <h3 class="footer-h3">OUR SERVICES</h3>
+		    	             <ul>
+					            <li><a href="truck-booking-online" target="_blank">Online Truck Booking</a></li>
+					            <li><a href="logistics-service" target="_blank">Logistics Services</a></li>
+					            <li><a href="transportation-services" target="_blank">Transportation Services</a></li>
+					            <li><a href="packers-movers" target="_blank">Packers &amp; Movers</a></li>		
+					            <li><a href="express-cargo-service" target="_blank">Express Cargo Services</a></li>
+					            <li><a href="freight-forwarding-services">Freight Forwarding</a></li>
+				            </ul>
+		                </div>		
+		              </div>		
+	  	            </div>
+            <div class="col4 t-w100 OnlyMobile">
+
+	  	            <amp-accordion disable-session-states expand-single-section>
+                          <section >
+                            <h2 class="acco footer-h3">QUICK LINKS
+         
+                              <span class="plus">+</span>
+                            </h2>
+                            <div class="box-shadow panel">
+                              <ul>
+					            <li><a href="index">Home</a></li>
+					            <li><a href="about" target="_blank">About Us</a></li>
+					            <li><a href="../term-condition" target="_blank">Terms &amp; Conditions</a></li>
+					            <li><a href="../privacy-policy" target="_blank">Privacy Policy</a></li>
+					            <li><a href="../payment-term" target="_blank">Payment Terms</a></li>		
+					            <li><a href="../partner-with-us" target="_blank">Partner With Us</a></li>		
+					
+				            </ul>
+                            </div>
+                          </section>
+                      </amp-accordion>
+
+            </div>
+            <div class="col4 t-w100 OnlyMobile">
+
+	  	            <amp-accordion disable-session-states expand-single-section>
+                          <section >
+                            <h2 class="acco footer-h3">OUR SERVICES
+         
+                              <span class="plus">+</span>
+                            </h2>
+                            <div class="box-shadow panel">
+                              <ul>
+					            <li><a href="truck-booking-online" target="_blank">Online Truck Booking</a></li>
+					            <li><a href="logistics-service" target="_blank">Logistics Services</a></li>
+					            <li><a href="transportation-services" target="_blank">Transportation Services</a></li>
+					            <li><a href="packers-movers" target="_blank">Packers &amp; Movers</a></li>		
+					            <li><a href="express-cargo-service" target="_blank">Express Cargo Services</a></li>
+					            <li><a href="freight-forwarding-services">Freight Forwarding</a></li>
+					
+				            </ul>
+                            </div>
+                          </section>
+                      </amp-accordion>
+
+            </div>
+
+	              </div>    
+
+	              <div class="row">
+	  	            <div class="col12 padT0">
+	  		             <h3 class="footer-h3 center">TOP CITIES</h3>
+	  		             <ul class="left-ul center">
+				                <li><a href="gurugram" target="_blank">Gurugram</a></li>
+					            <li><a href="chennai" target="_blank">Chennai</a></li>
+					            <li><a href="noida" target="_blank">Noida</a></li>
+					            <li><a href="mumbai" target="_blank">Mumbai</a></li>	
+					            <li><a href="vadodara" target="_blank">Vadodara</a></li>
+					            <li><a href="ahmedabad" target="_blank">Ahmedabad</a></li>
+					            <li><a href="pune" target="_blank">Pune</a></li>		
+					            <li><a href="delhi" target="_blank">Delhi</a></li>		
+					            <li><a href="hyderabad" target="_blank">Hyderabad</a></li>		
+					            <li><a href="bangalore" target="_blank">Bangalore</a></li>		
+					
+				            </ul>
+	  	            </div>
+	              </div>
+	            </div>
+	            <!--copy rihgt-->
+  		            <div class="row copyright center">
+     		            <a class="logo-rt" href="https://play.google.com/store/apps/details?id=trckg.truckguru&amp;hl=en" target="_blank" rel="noopener">
+			             <amp-img  src="images/truckguru-android-app.png" alt="Online Truck Booking App TruckGuru LLP" width="133" height="39" layout="fixed" >
+                  
+                         </amp-img>
+			            </a>
+			            <a class="logo-rt" href="https://itunes.apple.com/us/app/truckguru-online-truck-booking/id1425966954?mt=8&amp;ign-mpt=uo%3D2" target="_blank" rel="noopener">
+				             <amp-img  src="images/truckguru-ios-app.png" alt="Online Truck Booking App TruckGuru LLP" width="132" height="39" layout="fixed" >
+                   
+                         </amp-img>
+			            </a>
+			            <div class="row">
+			            <div class="col3 col-auto social-div t-w50">	
+			            <ul class="my-social">
+				             <li class="logo-rt">
+				 	            <a href="https://www.facebook.com/TruckGuruindia/" target="_blank" rel="noopener">
+					             <amp-img src="images/facebook.png" width="40" height="40"  layout="fixed"  alt="TruckGuru Facebook"></amp-img>					  
+				             </li>
+				              <li class="logo-rt">
+				             <a href="https://twitter.com/TruckGuruindia" target="_blank" rel="noopener">
+				 	             <amp-img src="images/twitter.png" width="40" height="40"  layout="fixed"  alt="TruckGuru twitter"></amp-img>	
+				
+				             </li>
+				             <li class="logo-rt">
+					            <a href="https://www.linkedin.com/company/truckguru.co.in" target="_blank" rel="noopener">
+						             <amp-img src="images/linkedin.png" width="40" height="40"  layout="fixed"  alt="TruckGuru linkedin"></amp-img>
+				             </li>
+				              <li class="logo-rt">
+				            <a href="https://www.youtube.com/channel/UC6YERsiIbNjnA9FRDNoJ1BA" target="_blank" rel="noopener">
+					             <amp-img src="images/youtube.png" width="40" height="40"  layout="fixed"  alt="TruckGuru youtube"></amp-img>
+				            </a>	
+				             </li>
+			            </ul>
+		                 </div>
+		                </div>
+  		            </div>
+  		            <div class="container copy-div">
+  			            <p class="copy margT20">Copyright ©2021&nbsp;<a href="https://truckguru.co.in">TruckGuru LLP</a></p>
+  		            </div>
+            </footer>
+
+     
+     </section>
+     <amp-state id="formDataVar" src="https://truckguru.co.in/get_from_data.php?q="
+           [src]="formDataVar.endpoint + (formDataVar.pickupQuery ? formDataVar.pickupQuery : '')">
+    <script type="application/json">
+{
+  "endpoint": "https://truckguru.co.in/get_from_data.php?q=",
+  "pickupQuery": "",
+  "pickArea":[],
+  "pickupArray":[]
+}
+</script>
+
+</amp-state>
+    <amp-state id="dropDataVar" src="https://truckguru.co.in/get_to_data.php?q="
+               [src]="dropDataVar.endpoint + (dropDataVar.dropQuery ? dropDataVar.dropQuery : '')">
+        <script type="application/json">
+        {
+          "endpoint": "https://truckguru.co.in/get_to_data.php?q=",
+          "dropQuery": "",
+          "dropArea":[],
+          "dropArray":[]
+        }
+        </script>
+		
+</amp-state>
+   <amp-state id="truckDataVar" src="https://truckguru.co.in/get_truck_data.php?q="
+               [src]="truckDataVar.endpoint + (truckDataVar.truckQuery ? truckDataVar.truckQuery : '')">
+        <script type="application/json">
+        {
+          "endpoint": "https://truckguru.co.in/get_truck_data.php?q=",
+          "truckQuery": "",
+          "truckArea":[],
+          "truckArray":[]
+        }
+        </script>
+</amp-state>
+
+<!--end here-->
+
+<amp-analytics type="gtag" data-credentials="include" id="analytics">
+    <script type="application/json">
+            {
+              "vars" : {
+                "gtag_id": "UA-85885053-1",
+                "config" : {
+                  "UA-85885053-1": { "groups": "default" }
+                }
+              },
+              "triggers": {
+                "input": {
+                  "selector": "#fromt",
+                  "on": "click",
+                  "request":"event",
+                  "vars": {
+                    "event_category":"WEB",
+                    "event_name": "click"
+                  }
+                }
+              }
+            }
+        </script>
+</amp-analytics>
+
+
+<script type="application/ld+json">
+{
+"@context" : "http://schema.org",
+"@type" : "LocalBusiness",
+"name" : "TruckGuru",
+"image" : "https://truckguru.co.in/images/logo-new.png",
+"telephone" : "7202045678",
+"email" : "info@truckguru.co.in",
+"areaServed": "Ahmedabad, Gurugram, Chennai, Visakhapatnam, Vadodara, Ahmedabad, Surat, Rajkot, Jamnagar, Gandhidham, Vapi, Mumbai, Pune, Delhi, Hyderabad, Bangalore, Indore, Jaipur, Pondicherry, Nashik, Mysore, Chandigarh, Bhubaneswar, Ranchi, Nagpur, Amritsar, Dehradun, Vijayawada, Mundra, Ludhiana, Agra, Jodhpur, Mangalore, Kolkata, Noida, Coimbatore, Kochi, India",
+"address" : {
+"@type" : "PostalAddress",
+"streetAddress" : " SF/12, Samarth Tower, Rd,",
+"addressLocality" : "Sun Meelan,Near Waghodia Road",
+"addressRegion" : "Vadodara",
+"addressCountry" : "India",
+"postalCode" : "390019"
+},
+"url" : "https://truckguru.co.in/",
+"priceRange":"$",
+"paymentAccepted":"Cash, Credit Card, Cheque",
+"aggregateRating":
+{"@type": "AggregateRating",
+"ratingValue": "4.5/5",
+"bestRating": "100",
+"reviewCount": "96"
+},
+"openingHoursSpecification" : {
+"@type" : "OpeningHoursSpecification",
+"dayOfWeek" : {
+"@type" : "DayOfWeek",
+"name" : "Mon - Sat"
+},
+"opens" : "08:00",
+"closes" : "20:00"
+}
+}
+  
+</script>
+
+
+
+
+
+        </div>
+   <%-- </form>--%>
+</body>
+</html>
